@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* in this section we changed the divs to nav */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -85,35 +85,31 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* all of these were repeated. condense into one by calling the class benefit 
+benefit lead,brand,cost all had the same codes 
 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* added the benefit class */
+.benefit p {
+  margin-bottom: 10px;
+  text-align: center;
 }
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* got rid of .benefit lead,brand and cost and just chagned it to h3 class 
 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+*/
+.benefit h3 {
     margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
+    text-align: center; 
 }
 
 .benefit-lead img {
